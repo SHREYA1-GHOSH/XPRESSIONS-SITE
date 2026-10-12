@@ -31,5 +31,8 @@
 .artists-page-copy{width:min(100%,860px);margin-inline:auto;text-align:center;transform:translateZ(28px);z-index:1}
 .festival-banner h1,.festival-banner h1 span,.festival-banner .eyebrow,.festival-banner .banner-line,.festival-banner .banner-date>span,.festival-banner .banner-date small,.artists-page-copy .eyebrow,.artists-page-copy h1,.artists-page-copy h1 span,.artists-page-copy>p:last-child,.artists-page-copy .back-link{background:var(--banner-gold);background-clip:text;-webkit-background-clip:text;color:transparent;-webkit-text-fill-color:transparent;text-shadow:0 1px 0 #ffffff55,0 3px 8px #06162bb3}
 .festival-banner .banner-date small{text-align:center}
+.progress-track{height:38px;position:relative;overflow:hidden;border-radius:999px;background:#e6e8e9}
+.progress-fill{position:absolute;inset:0 auto 0 0;z-index:0;width:0;border-radius:inherit;background:#d9b866;transition:width .5s ease}
+.progress-label{position:absolute;inset:0;z-index:1;display:grid;place-items:center;padding-inline:10px;color:#111;font:700 14px Cambria,Georgia,serif;text-align:center;white-space:nowrap;pointer-events:none}
 @media(max-width:760px){.artists-page-hero{margin-inline:8px;padding:40px 14px}.artists-page-copy{width:100%}}
 @media(max-width:760px){.site-header{padding-inline:14px}.brand{width:124px;flex-basis:124px}.brand-logo{max-height:46px}.footer-brand{width:150px;flex-basis:150px}.main-nav{gap:10px}.main-nav a{font-size:10px}.festival-banner{min-height:310px;margin-inline:8px;padding:42px 14px;gap:14px}.festival-banner h1{font-size:clamp(27px,7vw,48px)}.festival-banner .banner-date>span{font-size:23px}}
